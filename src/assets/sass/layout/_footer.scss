@@ -1,0 +1,47 @@
+@import '../helpers/variables';
+@import '../theme/font';
+
+.footer-downl{
+    // background-color: $colorBlue;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+
+    .footer-logo{
+        p{
+            margin: 0;
+            text-align: center;
+            a{
+                font-size: 30px;
+                font-family: $fontLobster;
+                color: #24929A;
+                text-decoration: none;
+                &:hover{
+                    color: rgb(26, 194, 194);
+                }
+                span{
+                    font-size: 30px;
+                    font-family: $fontMetal;
+                }
+            }
+        }
+    }
+    .copy{
+        margin: 1px 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                list-style: none;
+                padding: 0px 17px;
+                font-size: 18px;
+                a{
+                    color: $colorBlack;
+                    text-decoration: none;
+                    font-weight: 500;
+                    // padding: 10px 17px;
+                }
+            }
+        }
+    }
+}
