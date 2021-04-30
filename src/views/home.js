@@ -68,9 +68,9 @@ const Home = () => {
               </div>
             </div>
             <div className="wrapper__title">
-              <p className="title"> Professional hair stylist </p>
-              <p className="plus"> Lorem Ipsum is simply dummy text of the </p>
-              <p className="text"> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+              <p className="title"> Coiffeur professionnel </p>
+              <p className="plus"> Obtenez votre coiffure professionnel chez vous </p>
+              <p className="text">My Hair Cut vous offre des service de coiffure professionnel afro chez vous! </p>
             </div>
 
             {/* Story */}
@@ -82,7 +82,7 @@ const Home = () => {
                   </div>
                   <div className="grid__text">
                     <div className="text__title">
-                      <span> Our Story </span>
+                      <span> Notre Histoire </span>
                     </div>
                     <div className="text__sous">
                       <span> Lorem  industry's standard dummy text ever since </span>
@@ -100,9 +100,14 @@ const Home = () => {
             <div className="wrapper__special">
                 <div className="special__grid">
                     <div className="grid__text">
-                      <p className="title">Our specialties</p>
-                      <p className="text"> Lorem  industry's standard  text ever since </p>
-                      <p className="desc"> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                      <p className="title">Notre specialité</p>
+                      <p className="text"> Tissage </p>
+                      <p className="text"> Perruques </p>
+                      <p className="text"> Tresse </p>
+                      <p className="text"> Dread</p>
+                      <p className="text"> Dread Loks</p>
+                      <p className="text"> 1,2,3 Ton</p>
+                      <p className="desc"> My Hair Cut est l'univers afro specialisé dans les coiffures afro de tout types de personnes </p>
                     </div>
                     <div className="grid__product">
                         <div className="swiper-container">
@@ -112,7 +117,7 @@ const Home = () => {
                                         <img src={ImageSpecial1} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Outline </p>
+                                        <p className="title"> Coiffure Homme </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
@@ -121,7 +126,7 @@ const Home = () => {
                                         <img src={ImageSpecial3} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Beard </p>
+                                        <p className="title"> Coiffure Dame </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
@@ -130,7 +135,7 @@ const Home = () => {
                                         <img src={ImageSpecial6} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Outline </p>
+                                        <p className="title"> Accessoire de cheveux </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
