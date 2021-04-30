@@ -194,7 +194,7 @@ const Home = () => {
             <div className="wrapper">
                 <div className="family">
                     <div className="title"> 
-                        <span>  Meet the family</span> 
+                        <span>  Meet the family a</span> 
                     </div>
 
                     <div className="desc"> 
