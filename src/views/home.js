@@ -4,10 +4,9 @@ import PropTypes from 'prop-types'
 import Filter from '../components/filter'
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
-import ImageStory from '../assets/img/story.jpg'
+import ImageStory from '../assets/img/49.jpg'
 import ImageSalon from '../assets/img/salon.jpg'
-import ImageSpecial1 from '../assets/img/special1.jpg'
-import ImageSpecial2 from '../assets/img/special2.jpg'
+import ImageSpecial1 from '../assets/img/11.jpg'
 import ImageSpecial3 from '../assets/img/special3.jpg'
 import ImageSpecial6 from '../assets/img/special6.jpg'
 import ImageSpecial5 from '../assets/img/special5.jpg'
