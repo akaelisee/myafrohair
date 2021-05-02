@@ -4,10 +4,9 @@ import PropTypes from 'prop-types'
 import Filter from '../components/filter'
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
-import ImageStory from '../assets/img/story.jpg'
+import ImageStory from '../assets/img/49.jpg'
 import ImageSalon from '../assets/img/salon.jpg'
-import ImageSpecial1 from '../assets/img/special1.jpg'
-import ImageSpecial2 from '../assets/img/special2.jpg'
+import ImageSpecial1 from '../assets/img/2.jpg'
 import ImageSpecial3 from '../assets/img/special3.jpg'
 import ImageSpecial6 from '../assets/img/special6.jpg'
 import ImageSpecial5 from '../assets/img/special5.jpg'
@@ -68,9 +67,9 @@ const Home = () => {
               </div>
             </div>
             <div className="wrapper__title">
-              <p className="title"> Professional hair stylist </p>
-              <p className="plus"> Lorem Ipsum is simply dummy text of the </p>
-              <p className="text"> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+              <p className="title"> Votre coiffeur/coiffeuse Afro </p>
+              <p className="plus"> Obtenez votre coiffure afro caribéenne chez vous </p>
+              <p className="text">Nos coiffeurs/coiffeuses sont vos amis et sont prêts à vous chez vous! </p>
             </div>
 
             {/* Story */}
@@ -82,13 +81,22 @@ const Home = () => {
                   </div>
                   <div className="grid__text">
                     <div className="text__title">
-                      <span> Our Story </span>
-                    </div>
-                    <div className="text__sous">
-                      <span> Lorem  industry's standard dummy text ever since </span>
+                      <span> Notre mission </span>
                     </div>
                     <div className="text__desc">
-                      <span> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</span>
+                      <span> Faciliter les échanges entre les offreurs et les demandeurs de coiffures Afro-caribéennes au Nouveau-Brunswick en particulier et au Canada en particulier . </span>
+                    </div>
+                  </div>
+                  <div className="grid__text">
+                    <div className="text__title">
+                      <span> Nos valeurs </span>
+                    </div>
+                    <div className="text__desc">
+                    <p className="title">Intégrité</p>
+                      <p className="text"> Proximité </p>
+                      <p className="text"> Bienveillance </p>
+                      <p className="text"> Qualité </p>
+                      <p className="text"> Partage </p>
                     </div>
                   </div>
                 </div>
@@ -100,10 +108,22 @@ const Home = () => {
             <div className="wrapper__special">
                 <div className="special__grid">
                     <div className="grid__text">
-                      <p className="title">Our specialties</p>
-                      <p className="text"> Lorem  industry's standard  text ever since </p>
-                      <p className="desc"> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
-                    </div>
+                      <p className="title">Nos specialités</p>
+                      <p className="title"> Femme </p>
+                      <p className="text"> Tissage </p>
+                      <p className="text"> Perruques </p>
+                      <p className="text"> Tresse </p>
+                      <p className="text"> bantu knot</p>
+                      <p className="text"> Big chop</p>
+                      <p className="text"> Box Braids</p>
+                      <p className="text"> Braid out</p>
+                      <p className="text"> natte</p>
+                      <p className="text"> Dread</p>
+                      <p className="title"> <u>Homme</u></p>
+                      <p className="text"> Dread Loks</p>
+                      <p className="text"> 0,1,2,3 Ton</p>
+                      <p className="text"> coupe</p>
+                      <p className="text"> trace</p></div>
                     <div className="grid__product">
                         <div className="swiper-container">
                             <div className="swiper-wrapper">
@@ -112,7 +132,7 @@ const Home = () => {
                                         <img src={ImageSpecial1} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Outline </p>
+                                        <p className="title"> Coiffure Femme </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
@@ -121,7 +141,7 @@ const Home = () => {
                                         <img src={ImageSpecial3} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Beard </p>
+                                        <p className="title"> Coiffure Homme </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
@@ -130,7 +150,7 @@ const Home = () => {
                                         <img src={ImageSpecial6} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
-                                        <p className="title"> Outline </p>
+                                        <p className="title"> Produit capillaires </p>
                                         <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
@@ -177,13 +197,10 @@ const Home = () => {
                   </div>
                   <div className="grid__text">
                     <div className="text__title">
-                      <span> Time for a haircut </span>
-                    </div>
-                    <div className="text__sous">
-                      <span> Lorem  industry's standard dummy text ever since </span>
+                      <span> Nos amis collégiens </span>
                     </div>
                     <div className="text__desc">
-                      <span> Lorem  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</span>
+                      <span> My Hair Cut s'engage à reverser une quote-part de leurs bénéfices aux étudiants vulnérables des colleges des institutions poste secondaire du nouveau-brunswick. Il sagit d'un projet social dont l'objectif sera d'offrir des vivres frais aux étudiants vulnérables.</span>
                     </div>
                   </div>
                 </div>

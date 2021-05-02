@@ -31,8 +31,8 @@ const Header = () => {
                 </div>
 
                 <div className="header__home">
-                    <p className="text__title"> Détendez-vous bien, soyez confiant, nous sommes prêt pour vous </p>
-                    <p className="text__desc"> Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire  </p>
+                    <p className="text__title"> Avec My Hair Cut, détendez-vous bien, soyez confiant </p>
+                    <p className="text__desc"> Obtenez votre coiffure afro chez vous  </p>
                     
                     <div className="btn">
                         <Link className="btn-article"> Voir nos article </Link>
