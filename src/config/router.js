@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import Home from '../views/home'
 import Content from '../components/content'
+import Reservation from '../views/reservation'
 
 
 const Routes = () => {
@@ -16,6 +17,7 @@ const Routes = () => {
       <Switch>
       <Content>
         <Route exact path='/' component={Home} />
+        <Route exact path='/reservation' component={Reservation} />
       </Content>
       </Switch>
     </Router>
