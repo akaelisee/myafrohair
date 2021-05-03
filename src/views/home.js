@@ -1,6 +1,7 @@
 // @ts-nocheck
 import React, {useState, useEffect} from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 import Filter from '../components/filter'
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
@@ -12,6 +13,7 @@ import ImageSpecial6 from '../assets/img/special6.jpg'
 import ImageSpecial5 from '../assets/img/special5.jpg'
 import SvgArrowLeft from '../assets/svg/arrow-back-outline.svg'
 import SvgArrowRight from '../assets/svg/arrow-forward-outline.svg'
+import Chevron from '../assets/svg/chevron-forward-outline.svg'
 
 const Home = () => {
 
@@ -52,6 +54,16 @@ const Home = () => {
 
     return (
         <div className="container"> 
+          <div className="container__banner">
+              <div className="container__home">
+                    <p className="text__title"> Avec My Hair Cut, détendez-vous bien, soyez confiant </p>
+                    <p className="text__desc"> Obtenez votre coiffure afro chez vous  </p>
+                    
+                    <div className="btn">
+                        <Link className="btn-article"> Voir nos article </Link>
+                    </div>
+                </div>
+          </div>
           <div className="wrapper">
             <div className="wrapper__recherche">
               <div className="wrapper__poppever">
@@ -86,17 +98,30 @@ const Home = () => {
                     <div className="text__desc">
                       <span> Faciliter les échanges entre les offreurs et les demandeurs de coiffures Afro-caribéennes au Nouveau-Brunswick en particulier et au Canada en particulier . </span>
                     </div>
-                  </div>
-                  <div className="grid__text">
-                    <div className="text__title">
+                    <div className="text__title valeur">
                       <span> Nos valeurs </span>
                     </div>
                     <div className="text__desc">
-                    <p className="title">Intégrité</p>
-                      <p className="text"> Proximité </p>
-                      <p className="text"> Bienveillance </p>
-                      <p className="text"> Qualité </p>
-                      <p className="text"> Partage </p>
+                      <div className='valeur__item'>
+                          <img src={Chevron} alt="chevron-right" />
+                          <span> Intégrité </span>
+                      </div>
+                      <div className='valeur__item'>
+                          <img src={Chevron} alt="chevron-right" />
+                          <span> Proximité </span>
+                      </div>
+                      <div className='valeur__item'>
+                          <img src={Chevron} alt="chevron-right" />
+                          <span> Bienveillance </span>
+                      </div>
+                      <div className='valeur__item'>
+                          <img src={Chevron} alt="chevron-right" />
+                          <span> Qualité </span>
+                      </div>
+                      <div className='valeur__item'>
+                          <img src={Chevron} alt="chevron-right" />
+                          <span> Partage </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -109,21 +134,76 @@ const Home = () => {
                 <div className="special__grid">
                     <div className="grid__text">
                       <p className="title">Nos specialités</p>
-                      <p className="title"> Femme </p>
-                      <p className="text"> Tissage </p>
-                      <p className="text"> Perruques </p>
-                      <p className="text"> Tresse </p>
-                      <p className="text"> bantu knot</p>
-                      <p className="text"> Big chop</p>
-                      <p className="text"> Box Braids</p>
-                      <p className="text"> Braid out</p>
-                      <p className="text"> natte</p>
-                      <p className="text"> Dread</p>
-                      <p className="title"> <u>Homme</u></p>
-                      <p className="text"> Dread Loks</p>
-                      <p className="text"> 0,1,2,3 Ton</p>
-                      <p className="text"> coupe</p>
-                      <p className="text"> trace</p></div>
+
+                      <div className="flex_genre">
+                        <div className="genre_item">
+                          <div className="genre__tile"> 
+                            <p className="title"> Femme </p>  
+                          </div>
+                          <div className="genre__list">
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Tissage </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Perruques </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Tresse </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Bantu knot </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Big chop </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Box Braids </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Braid out </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> natte </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Dread </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="genre_item her">
+                          <div className="genre__tile"> 
+                            <p className="title"> Homme </p>  
+                          </div>
+                          <div className="genre__list">
+                          <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Dread Loks </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> 0,1,2,3 Ton </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> coupe </span>
+                            </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> trace </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                     </div>
                     <div className="grid__product">
                         <div className="swiper-container">
                             <div className="swiper-wrapper">
@@ -208,7 +288,7 @@ const Home = () => {
             {/*  */}
 
             {/* family */}
-            <div className="wrapper">
+            {/* <div className="wrapper">
                 <div className="family">
                     <div className="title"> 
                         <span>  Meet the family a</span> 
@@ -231,8 +311,7 @@ const Home = () => {
                     </div>
                     
                 </div>
-            </div>
-            {/* End family */}
+            </div> */}
         </div>
     )
 }
