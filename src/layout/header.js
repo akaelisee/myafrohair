@@ -25,19 +25,8 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div className="header__background">
-                <div className="header__navbar">
-                    <NavBar isNav={isNav} />
-                </div>
-
-                <div className="header__home">
-                    <p className="text__title"> Avec My Hair Cut, détendez-vous bien, soyez confiant </p>
-                    <p className="text__desc"> Obtenez votre coiffure afro chez vous  </p>
-                    
-                    <div className="btn">
-                        <Link className="btn-article"> Voir nos article </Link>
-                    </div>
-                </div>
+            <div className="header__navbar">
+                <NavBar isNav={isNav} />
             </div>
         </div>
     )
