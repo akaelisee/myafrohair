@@ -1,0 +1,202 @@
+@import '../helpers/variables';
+@import '../theme/font';
+
+
+.reservation {
+    .reservation__banner {
+        background-image: url(../../img/reservation.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-bottom: 70px;
+        position: relative;
+
+        .reservation__text {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            // top: 300px;
+            color: $colorWhiteNav;
+    
+            .text__title {
+                font-size: 80px;
+                color: #fff;
+                line-height: 100px;
+            }
+        }
+    }
+}
+
+.wrapper__reservation {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 3fr;
+
+    .reservation__lieu {
+        .form__group {
+            .form__group__item {
+                margin-bottom: 15px;
+                input {
+                    width: 100%;
+                    padding: 5px 0;
+                    border-radius: 5px;
+
+                    &:focus {
+                        border: 2px solid $colorGreen;
+                        outline: none;
+                    }
+                }
+                select {
+                    width: 100%;
+                    padding: 5px 0;
+                    border-radius: 5px;
+                    &:focus {
+                        border: 2px solid $colorGreen;
+                        outline: none;
+                    }
+                }
+                .btn__recherche {
+                    margin-top: 15px;
+                    padding: 10.9px 0;
+                    outline: none;
+                    color: $colorWhite;
+                    font-weight: 600;
+                    background-color: $colorGreen;
+                    border: none;
+                    border-radius: 5px;
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .reservation__detail {
+        box-shadow: 1px 0px 13px 0.5px #000;
+
+        .reservation__title {
+            font-size: 20px;
+            background-color: $colorGreen;
+            color: $colorWhite;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .reservation__contact {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            column-gap: 2rem;
+
+            .personal {
+                padding: 25px 0;
+                padding-left: 25px;
+                width: 100%;
+                display: flex;
+                .personal_image {
+                    margin-right: 20px;
+                    img {
+                        width: 170px;
+                        border-radius: 50%;
+                    }
+                }
+                .detail__personal {
+                   .flex__star {
+                       padding-bottom: 10px;
+                       display: flex;
+                       img {
+                           width: 18px;
+                       }
+                   }
+                   
+                   p {
+                       font-size: 17px;
+                       line-height: 25px;
+                       span {
+                           color: $colorGreen;
+                           font-weight: 700;
+                           font-size: 20px;
+                       }
+                   }
+                   .lieu_p {
+                    color: $colorGreen;
+                    font-size: 20px;
+                   }
+                }
+            }
+
+            .contact {
+                padding: 25px;
+                background-color: $colorGreenWhite;
+                .contact__title {
+                    background-color: $colorGreen;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 10px;
+                    color: $colorWhite;
+                    img {
+                        width: 20px;
+                        position: relative;
+                        top: 5px;
+                    }
+                }
+                .time {
+                    .time__item {
+                        margin: 10px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        .flex__time {
+                            padding: 7px 0;
+                            img {
+                                width: 17px;
+                                position: relative;
+                                top: 2.5px;
+                            }
+                        }
+                        .dispo {
+                            align-self: center;
+                            background-color: $colorGreen;
+                            padding: 10px;
+                            color: $colorWhite;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            &:hover {
+                                background-color: $colorGreenTransparent;
+                            }
+                        }
+                        .indispo {
+                            align-self: center;
+                        }
+                    }
+                }
+                .agenda {
+                    padding-bottom: 20px;
+                    button {
+                        margin-top: 15px;
+                        padding: 8px 0;
+                        outline: none;
+                        color: #fff;
+                        background-color: $colorDarkGrey;
+                        border: none;
+                        border-radius: 5px;
+                        width: 100%;
+                        cursor: pointer;
+                        font-size: 16px;
+                        transition: all 0.4s;
+                        &:hover {
+                            background-color: $colorGreen;
+                        }
+                        img {
+                            position: relative;
+                            top: 3px;
+                            margin-left: 5px;
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

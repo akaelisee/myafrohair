@@ -2,47 +2,7 @@
 @import '../theme/font';
 
 .header {
-    .header__background {
-        background-image: url(../../img/kid.jpg);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .header__home {
-        width: 70%;
-        margin: 180px auto;
-        text-align: center;
-        color: $colorWhiteNav;
-
-        .text__title {
-            font-size: 30px;
-            color: #fff;
-            line-height: 55px;
-        }
-
-        .text__desc {
-            line-height: 40px;
-            font-size: 16px;
-        }
-
-        .btn {
-            padding: 90px 0px;
-            .btn-article {
-                border: 2px solid $colorWhiteNav;
-                text-decoration: none;
-                color: $colorWhiteNav;
-                padding: 12px 50px;
-                font-size: 18px;
-                transition: all 0.4s;
-                &:hover {
-                    border: 2px solid $colorGreen;
-                    background-color: $colorGreen;
-                }
-            }
-        }
-    }   
+       
 }
 
 
