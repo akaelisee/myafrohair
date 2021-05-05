@@ -24,9 +24,13 @@
             .navbar__item {
                 color: #fff;
                 padding: 0 10px;
-                margin: 0 10px;
+                margin: 0 5px;
                 text-decoration: none;
                 font-size: 18px;
+            }
+            .btn__pro {
+                background-color: $colorGreen;
+                padding: 10px 15px;
             }
     
             .active {
@@ -43,15 +47,6 @@
                     z-index: -1;
                 }
             }
-        }
-        .navbar__sign {
-            .sign__item {
-                color: #fff;
-                padding: 0 5px;
-                margin: 0 5px;
-                text-decoration: none;
-            }
-                
         }
     }
 }

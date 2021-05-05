@@ -23,14 +23,12 @@ const Navbar = ({isNav}) => {
                 </div>
                 <div className="navbar__center">
                     <Link to ='/' className={isNav ? 'navbar__item' : 'navbar__item active'} style={isNav ? {color:'#1B4D4A', fontWeight: 700} : null}> Home </Link>
-                    <Link to ='/catalogue' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Catalogue </Link>
                     <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> About </Link>
-                    <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Blog </Link>
+                    <Link to ='/catalogue' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Catalogue </Link>
                     <Link to ='/reservation' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Reservation </Link>
-                </div>
-                <div className="navbar__sign">
-                    <Link to ='/' className="sign__item" style={isNav ? {color:'#1B4D4A'} : null}> Login </Link>
-                    <Link to ='/' className="sign__item" style={isNav ? {color:'#1B4D4A'} : null}> Sign up </Link>
+                    <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Espace client </Link>
+                    <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Espace pro </Link>
+                    <Link to ='/registerhairdresser' className="navbar__item btn__pro" style={isNav ? {color:'#1B4D4A'} : null}> Devenir coiffeur(e) </Link>
                 </div>
             </div>
         </div>

@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import PersonalImage from '../assets/img/personal.jpg'
 import PersonalImage1 from '../assets/img/c.jpg'
 import PersonalImage2 from '../assets/img/13.jpg'
+import PersonalImage3 from '../assets/img/10.jpg'
+import PersonalImage4 from '../assets/img/11.jpg'
+import PersonalImage5 from '../assets/img/12.jpg'
 import StarImage from '../assets/svg/star-outline.svg'
 import ChatImage from '../assets/svg/chatbox-outline.svg'
 import TodayImage from '../assets/svg/today-outline.svg'
@@ -18,60 +21,71 @@ const Catalogue = () => {
                 </div>
             </div>
 
-            <div className="wrapper__catalogue"> 
-                <div className="catalogue__lieu">
-                   
-                </div>  
-                <div className="catalogue__detail">
-                    <div className="catalogue__title"> Mercredi 5 Mai </div>
-                    <div className="catalogue__contact">
-                        <div className="personal"> 
-                            <div className="personal_image"> 
-                                <img src={PersonalImage} className="img-responsive" alt="personal" />
-                            </div> 
-                            <div className="detail__personal">
-                                <div className="flex__star">
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                </div>
-
-                                <p> <span> Latifa Okanpo </span> à 11km </p>
-                                <p> Coiffure: Femme/Enfant </p>
-                                <p className="lieu_p"> Bathurst  </p>
-                                <p> Paiement en espace: non  </p>
-                                <p> A Partir de : 80 $</p>
+            <div className="wrapper__catalogue">   
+                <div className="catalogue__grid">
+                    <div className="catalogue__item">
+                        <div className="catalogue__image"> 
+                            <img src={PersonalImage1}  alt="PersonalImage1" />
+                        </div>
+                        <div className="catalogue__body">
+                            <div className="catalogue__title"> 
+                                <span> Nom Catalogue </span> 
+                            </div>
+                            <div className="catalogue__desc"> 
+                                <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span> 
                             </div>
                         </div>
-                        <div className="personal"> 
-                            <div className="personal_image"> 
-                                <img src={PersonalImage1} className="img-responsive" alt="personal" />
-                            </div> 
-                            <div className="detail__personal">
-                                <div className="flex__star">
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                    <img src={StarImage} className="img-responsive" alt="personal" />
-                                </div>
-
-                                <p> <span> Christian Assemien </span> à 35km </p>
-                                <p> Coiffure: Homme </p>
-                                <p className="lieu_p"> Campbellton  </p>
-                                <p> Paiement en espace: Oui  </p>
-                                <p> A Partir de : 25 $</p>
+                    </div>
+                    <div className="catalogue__item">
+                        <div className="catalogue__image"> 
+                            <img src={PersonalImage2}  alt="PersonalImage1" />
+                        </div>
+                        <div className="catalogue__body">
+                            <div className="catalogue__title"> 
+                                <span> Nom Catalogue </span> 
+                            </div>
+                            <div className="catalogue__desc"> 
+                                <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span> 
                             </div>
                         </div>
-
-                        
-
-                        <div className="personal"> 
-                            <div className="personal_image"> 
-                                <img src={PersonalImage2} className="img-responsive" alt="personal" />
-                            </div>  
+                    </div>
+                    <div className="catalogue__item">
+                        <div className="catalogue__image"> 
+                            <img src={PersonalImage3}  alt="PersonalImage1" />
+                        </div>
+                        <div className="catalogue__body">
+                            <div className="catalogue__title"> 
+                                <span> Nom Catalogue </span> 
+                            </div>
+                            <div className="catalogue__desc"> 
+                                <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="catalogue__item">
+                        <div className="catalogue__image"> 
+                            <img src={PersonalImage4}  alt="PersonalImage1" />
+                        </div>
+                        <div className="catalogue__body">
+                            <div className="catalogue__title"> 
+                                <span> Nom Catalogue </span> 
+                            </div>
+                            <div className="catalogue__desc"> 
+                                <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="catalogue__item">
+                        <div className="catalogue__image"> 
+                            <img src={PersonalImage5}  alt="PersonalImage1" />
+                        </div>
+                        <div className="catalogue__body">
+                            <div className="catalogue__title"> 
+                                <span> Nom Catalogue </span> 
+                            </div>
+                            <div className="catalogue__desc"> 
+                                <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span> 
+                            </div>
                         </div>
                     </div>
                 </div>  

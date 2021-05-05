@@ -1,0 +1,70 @@
+@import '../helpers/variables';
+@import '../theme/font';
+
+
+.register__hair {
+    .register__hair__banner {
+        background-image: url(../../img/reservation.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+
+        .register__hair__card {
+            position: absolute;
+            left: 50%;
+            top: 53%;
+            transform: translate(-50%, -50%);
+            width: 30%;
+            color: $colorWhiteNav;
+            border: 1px solid;
+            box-shadow: 1px 0 10px 0.5px $colorBlack;
+            background-color: $colorWhiteTransparent;
+            padding: 15px;
+            border-radius: 5px;
+
+            .card {
+                color: $colorGreen;
+                p {
+                    text-align: center;
+                    margin: 10px 0 25px 0;
+                    font-weight: 700;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+                .form__group {
+                    .form__group__item {
+                        width: 100%;
+                        input {
+                            width: 100%;
+                            padding: 10px;
+                            margin: 10px 0;
+                            border-radius: 5px;
+                        }
+                    }
+                    .form__group__btn {
+                        margin-top: 15px;
+                        .btn__register {
+                            width: 100%;
+                            padding: 15px 0;
+                            outline: none;
+                            color: $colorWhite;
+                            font-weight: 600;
+                            background-color: $colorGreen;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            font-size: 15px;
+                            letter-spacing: 1.5px;
+                        }
+
+                    }
+                }
+                .condi {
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
