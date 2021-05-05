@@ -1,6 +1,7 @@
 import React, { useEffect }  from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import ImageStory from '../assets/img/logo.jpg'
 
 const Navbar = ({isNav}) => {
 
@@ -18,11 +19,11 @@ const Navbar = ({isNav}) => {
         <div className="nav" style={isNav ? bar : bar1}> 
             <div className="navbar">
                 <div className="navbar__logo">
-                    <span style={isNav ? {color:'#1B4D4A'} : null}> logo </span>
+                <img src ={ImageStory} alt="logo" />
                 </div>
                 <div className="navbar__center">
                     <Link to ='/' className={isNav ? 'navbar__item' : 'navbar__item active'} style={isNav ? {color:'#1B4D4A', fontWeight: 700} : null}> Home </Link>
-                    <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Catalogue </Link>
+                    <Link to ='/catalogue' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Catalogue </Link>
                     <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> About </Link>
                     <Link to ='/' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Blog </Link>
                     <Link to ='/reservation' className="navbar__item" style={isNav ? {color:'#1B4D4A'} : null}> Reservation </Link>

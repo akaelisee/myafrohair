@@ -6,10 +6,10 @@ import Filter from '../components/filter'
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import ImageStory from '../assets/img/49.jpg'
-import ImageSalon from '../assets/img/salon.jpg'
-import ImageSpecial1 from '../assets/img/2.jpg'
-import ImageSpecial3 from '../assets/img/special3.jpg'
-import ImageSpecial6 from '../assets/img/special6.jpg'
+import ImageSalon from '../assets/img/d.jpg'
+import ImageSpecial1 from '../assets/img/8.jpg'
+import ImageSpecial3 from '../assets/img/e.jpg'
+import ImageSpecial6 from '../assets/img/kid2.jpg'
 import ImageSpecial5 from '../assets/img/special5.jpg'
 import SvgArrowLeft from '../assets/svg/arrow-back-outline.svg'
 import SvgArrowRight from '../assets/svg/arrow-forward-outline.svg'
@@ -173,10 +173,6 @@ const Home = () => {
                               <img src={Chevron} alt="chevron-right" />
                               <span> natte </span>
                             </div>
-                            <div className='list__item'>
-                              <img src={Chevron} alt="chevron-right" />
-                              <span> Dread </span>
-                            </div>
                           </div>
                         </div>
                         <div className="genre_item her">
@@ -200,6 +196,10 @@ const Home = () => {
                               <img src={Chevron} alt="chevron-right" />
                               <span> trace </span>
                             </div>
+                            <div className='list__item'>
+                              <img src={Chevron} alt="chevron-right" />
+                              <span> Dread </span>
+                            </div>
                           </div>
                         </div>
                       </div> 
@@ -213,7 +213,6 @@ const Home = () => {
                                     </div>
                                     <div className="swiper__text">
                                         <p className="title"> Coiffure Femme </p>
-                                        <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
@@ -222,7 +221,6 @@ const Home = () => {
                                     </div>
                                     <div className="swiper__text">
                                         <p className="title"> Coiffure Homme </p>
-                                        <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
@@ -230,26 +228,15 @@ const Home = () => {
                                         <img src={ImageSpecial6} className="img-responsive" alt="spacial" />
                                     </div>
                                     <div className="swiper__text">
+                                        <p className="title"> Coiffure Enfant </p>
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="swiper__image"> 
+                                        <img src={ImageSpecial5} className="img-responsive" alt="spacial" />
+                                    </div>
+                                    <div className="swiper__text">
                                         <p className="title"> Produit capillaires </p>
-                                        <p className="desc"> Lorem  industry's standard dummy text ever </p>
-                                    </div>
-                                </div>
-                                <div className="swiper-slide">
-                                    <div className="swiper__image"> 
-                                        <img src={ImageSpecial5} className="img-responsive" alt="spacial" />
-                                    </div>
-                                    <div className="swiper__text">
-                                        <p className="title"> Outline </p>
-                                        <p className="desc"> Lorem  industry's standard dummy text ever </p>
-                                    </div>
-                                </div>
-                                <div className="swiper-slide">
-                                    <div className="swiper__image"> 
-                                        <img src={ImageSpecial5} className="img-responsive" alt="spacial" />
-                                    </div>
-                                    <div className="swiper__text">
-                                        <p className="title"> Outline </p>
-                                        <p className="desc"> Lorem  industry's standard dummy text ever </p>
                                     </div>
                                 </div>
                             </div>

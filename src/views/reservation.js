@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PersonalImage from '../assets/img/personal.jpg'
+import PersonalImage1 from '../assets/img/c.jpg'
+import PersonalImage2 from '../assets/img/13.jpg'
 import StarImage from '../assets/svg/star-outline.svg'
 import ChatImage from '../assets/svg/chatbox-outline.svg'
 import TodayImage from '../assets/svg/today-outline.svg'
@@ -68,11 +70,11 @@ const Reservation = () => {
                                     <img src={StarImage} className="img-responsive" alt="personal" />
                                 </div>
 
-                                <p> <span> Latifa </span> à 11km </p>
-                                <p> Passionné </p>
-                                <p className="lieu_p"> Paris  </p>
+                                <p> <span> Latifa Okanpo </span> à 11km </p>
+                                <p> Coiffure: Femme/Enfant </p>
+                                <p className="lieu_p"> Bathurst  </p>
                                 <p> Paiement en espace: non  </p>
-                                <p> A Partir de : 50 €</p>
+                                <p> A Partir de : 80 $</p>
                             </div>
                         </div>
                         <div className="contact"> 
@@ -116,7 +118,7 @@ const Reservation = () => {
                         </div>
                         <div className="personal"> 
                             <div className="personal_image"> 
-                                <img src={PersonalImage} className="img-responsive" alt="personal" />
+                                <img src={PersonalImage1} className="img-responsive" alt="personal" />
                             </div> 
                             <div className="detail__personal">
                                 <div className="flex__star">
@@ -127,11 +129,11 @@ const Reservation = () => {
                                     <img src={StarImage} className="img-responsive" alt="personal" />
                                 </div>
 
-                                <p> <span> Latifa </span> à 11km </p>
-                                <p> Passionné </p>
-                                <p className="lieu_p"> Paris  </p>
-                                <p> Paiement en espace: non  </p>
-                                <p> A Partir de : 50 €</p>
+                                <p> <span> Christian Assemien </span> à 35km </p>
+                                <p> Coiffure: Homme </p>
+                                <p className="lieu_p"> Campbellton  </p>
+                                <p> Paiement en espace: Oui  </p>
+                                <p> A Partir de : 25 $</p>
                             </div>
                         </div>
 
@@ -177,7 +179,7 @@ const Reservation = () => {
 
                         <div className="personal"> 
                             <div className="personal_image"> 
-                                <img src={PersonalImage} className="img-responsive" alt="personal" />
+                                <img src={PersonalImage2} className="img-responsive" alt="personal" />
                             </div> 
                             <div className="detail__personal">
                                 <div className="flex__star">
@@ -188,11 +190,11 @@ const Reservation = () => {
                                     <img src={StarImage} className="img-responsive" alt="personal" />
                                 </div>
 
-                                <p> <span> Latifa </span> à 11km </p>
-                                <p> Passionné </p>
-                                <p className="lieu_p"> Paris  </p>
-                                <p> Paiement en espace: non  </p>
-                                <p> A Partir de : 50 €</p>
+                                <p> <span> Ornela Chason </span> à 15km </p>
+                                <p> Coiffure: Tout genre </p>
+                                <p className="lieu_p"> Beresford  </p>
+                                <p> Tout type de paiement  </p>
+                                <p> A Partir de : 160 $</p>
                             </div>
                         </div>
                         <div className="contact"> 
